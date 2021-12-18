@@ -1,0 +1,63 @@
+<!-- nav-start -->
+<nav class="navbar navbar-expand-lg bg-primary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="{% url 'main-page' %}"><i class="fas fa-home fa-2x"></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ОЎЮ илмий салоҳияти</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        Тузилма
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="{% url 'all-faculties' %}">Факультетлар</a></li>
+                        <li><a class="dropdown-item" href="#">Кафедралар</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        Илмий салоҳият
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Профессор-ўқитувчилар</a></li>
+                        <li><a class="dropdown-item" href="#">Илмий-ташкилий тузилмадаги ходимлар</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Бошқа тузилмадаги ходимлар</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="far fa-user"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Профил</a></li>
+                            <li><a class="dropdown-item" href="#">Статистика</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Чиқиш</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Чиқиш <i class="fas fa-sign-out-alt"></i></a>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+</nav>
+<!-- nav-end -->

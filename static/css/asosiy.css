@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind Siliguri', sans-serif;;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.asosiy-container{
+    width: 90%;
+    margin: 2% auto;
+    box-shadow: 0 2px 2px #eee;
+}
+.asosiy-inside{
+    border-top: 2px dotted #eee;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.nav-item a, .navbar-brand{
+    color: #fff;
+}
+.dropdown-item{
+    color: #333 !important;
+}
+.down-size{
+    width: 98%;
+    margin: 0 auto;
+}
+.main-banner{
+    padding-top: 3%;
+}
+.green-div-txt{
+    background-color: #74b9ff;
+    padding: 2% 5%;
+    color: #fff;
+}
+.banner-img-left{
+    text-align: center;
+}
+.banner-img-left img{
+    width: 50%;
+}
+.banner-text-right{
+    line-height: 3rem;
+}
+.banner-text-right h2{
+    color: #74b9ff;
+}
+.banner-text {
+    border: 1px solid #74b9ff;
+    margin-top: 7%;
+}
+.heading-txt h3{
+    color: #fff;
+    padding: 0.5% 4%;
+}
+.desc-txt{
+    padding: 1% 4%;
+    text-align: justify;
+}
+.input-name-2{
+    margin: 3% 0;
+}
+.table-striped tr th{
+    border-right: 2px solid #fff;
+}
+.triple-users{
+    float: right;
+}
+.triple-users li{
+   display: inline-block;
+   list-style-type: none;
+}

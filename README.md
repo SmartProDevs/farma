@@ -1,0 +1,2 @@
+# farmatsevtika
+farmatsevtika universiteti uchun
